@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { Lato, Libre_Baskerville } from 'next/font/google';
+import { basePath } from '@/lib/paths';
 import './globals.css';
 
 const lato = Lato({
@@ -28,6 +29,7 @@ export const metadata: Metadata = {
       'A family of Jesus-followers in South Austin, empowered by the Holy Spirit to make disciples of Jesus.',
     type: 'website',
   },
+  icons: { icon: `${basePath}/favicon.png` },
 };
 
 export default function RootLayout({
