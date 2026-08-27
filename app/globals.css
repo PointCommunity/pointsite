@@ -54,6 +54,7 @@ h1, h2, h3 { line-height: 1.12; letter-spacing: -.035em; }
 .button-row { display: flex; justify-content: center; gap: 28px; margin-top: 38px; }
 .home-feature { position: relative; }
 .home-feature--photo { min-height: 590px; display: flex; align-items: center; overflow: hidden; color: white; }
+.home-feature--photo .eyebrow { color: white; }
 .home-feature--photo .feature-copy { position: relative; z-index: 2; margin-inline: auto; }
 .feature-copy { max-width: 570px; }
 .feature-copy h2 { font-size: clamp(2.5rem, 4.5vw, 4.5rem); }
@@ -150,11 +151,11 @@ h1, h2, h3 { line-height: 1.12; letter-spacing: -.035em; }
 
 .site-footer { border-top: 1px solid var(--line); padding-block: 65px; }
 .footer-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 50px; }
-.footer-grid section:nth-child(2) { text-align: center; }
-.footer-grid section:last-child { text-align: right; }
+.footer-grid section { text-align: center; }
 .site-footer h2 { font-size: 1rem; letter-spacing: -.01em; }
 .site-footer p, .site-footer address { font-family: var(--font-serif), Georgia, serif; font-style: normal; }
-.social-links { display: flex; justify-content: flex-end; gap: 14px; }
+.site-footer address span { display: block; }
+.social-links { display: flex; justify-content: center; gap: 14px; }
 .social-links a { width: 40px; height: 40px; display: grid; place-items: center; border: 1px solid var(--line); border-radius: 50%; font-size: 1.2rem; font-weight: 900; }
 
 @media (max-width: 900px) {
@@ -201,8 +202,7 @@ h1, h2, h3 { line-height: 1.12; letter-spacing: -.035em; }
   .giving-options article, .form-panel { padding: 30px 24px; }
   .field { grid-column: 1 / -1; }
   .rental-link { align-items: flex-start; flex-direction: column; gap: 16px; padding-inline: 24px; }
-  .footer-grid section, .footer-grid section:nth-child(2), .footer-grid section:last-child { text-align: left; }
-  .social-links { justify-content: flex-start; }
+  .footer-grid section { text-align: center; }
 }
 
 @media (prefers-reduced-motion: reduce) {

@@ -27,6 +27,8 @@ The delivery behavior is isolated in [`components/ManagedForm.tsx`](components/M
 
 ## Calendar
 
+The community calendar route is currently archived: it is absent from public navigation and static route generation, while its page definition, event data, form, renderer, and calendar component remain in the repository for easy restoration.
+
 Add events to `calendarEvents` in `content/site.ts`:
 
 ```ts

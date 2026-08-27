@@ -10,7 +10,10 @@ export function SiteFooter() {
         </section>
         <section>
           <h2>Contact Info</h2>
-          <address>{church.address}</address>
+          <address>
+            <span>{church.addressLine1}</span>
+            <span>{church.addressLine2}</span>
+          </address>
         </section>
         <section>
           <h2>Follow Us</h2>

@@ -3,10 +3,12 @@ import type { ContentPage, FormDefinition } from '@/lib/types';
 export const church = {
   name: 'Point Community Church',
   shortName: 'Point ATX',
-  mission: 'We are a family of Jesus-followers empowered by the Holy Spirit to make disciples of Jesus in all of life for the glory of God.',
-  address: '11300 Old San Antonio Rd., Manchaca, TX 78652',
-  serviceTime: 'Sundays at 10:30 AM',
-  email: 'melissa@pointaustin.org',
+  mission: 'We are a family of Jesus-followers empowered by the Holy Spirit to make disciples of Jesus in all of life for the glory of God',
+  address: '11300 Old San Antonio Rd, Manchaca, TX 78652',
+  addressLine1: '11300 Old San Antonio Rd',
+  addressLine2: 'Manchaca, TX 78652',
+  serviceTime: 'Sunday at 10:30 AM',
+  email: 'connect@pointaustin.org',
   givingUrl: 'https://subsplash.com/u/-W69J2R/give',
   facebookUrl: 'https://www.facebook.com/pointatx/',
   instagramUrl: 'https://www.instagram.com/pointatx/',
@@ -14,12 +16,16 @@ export const church = {
 
 export const navigation = [
   { label: 'About', href: '/who-we-are', children: [['Who We Are', '/who-we-are'], ['What We Believe', '/what-we-believe'], ['Leadership', '/leadership'], ['Next Generation', '/next-generation']] },
-  { label: 'Connect', href: '/connect-card', children: [['Connect Card', '/connect-card'], ['Community Calendar', '/community-calendar'], ['Neighborhood Groups', '/neighborhood-groups'], ['Prayer Request', '/prayer-request']] },
+  { label: 'Connect', href: '/connect-card', children: [['Connect Card', '/connect-card'], ['Neighborhood Groups', '/neighborhood-groups'], ['Prayer Request', '/prayer-request']] },
   { label: 'Give', href: '/give' },
   { label: 'Contact', href: '/contact' },
 ] as const;
 
 export const calendarEvents: { date: string; title: string; time?: string }[] = [];
+
+export const archivedPages: ContentPage[] = [
+  { slug: 'community-calendar', title: 'Community Calendar', eyebrow: 'Life together', intro: 'See what is happening in the life of Point Community Church.', kind: 'calendar' },
+];
 
 export const pages: ContentPage[] = [
   { slug: 'who-we-are', title: 'Who We Are', eyebrow: 'About Point', intro: 'We are a family of disciples on mission.', heroImage: '/assets/pages/who-we-are.jpeg', kind: 'about' },
@@ -27,7 +33,6 @@ export const pages: ContentPage[] = [
   { slug: 'leadership', title: 'Leadership', eyebrow: 'Team & Staff', intro: 'Meet the elders, ministry leaders, and staff who equip our church family to be the church.', kind: 'leadership' },
   { slug: 'next-generation', title: 'Next Generation', eyebrow: 'Kids Ministry', intro: 'We believe kids are not the Church of tomorrow, but the Church today.', heroImage: '/assets/pages/kids-ministry-1.jpeg', kind: 'kids' },
   { slug: 'connect-card', title: 'Connect Card', eyebrow: 'Welcome to our family', intro: "We're glad you're here. Tell us a little about yourself so we can help you get connected.", kind: 'form' },
-  { slug: 'community-calendar', title: 'Community Calendar', eyebrow: 'Life together', intro: 'See what is happening in the life of Point Community Church.', kind: 'calendar' },
   { slug: 'neighborhood-groups', title: 'Neighborhood Groups', eyebrow: 'Church in everyday life', intro: 'Neighborhood Groups are smaller groups where we can be the church together in the places we live, work, play, and learn.', heroImage: '/assets/pages/neighborhood-map.png', kind: 'groups' },
   { slug: 'prayer-request', title: 'Prayer Requests', eyebrow: 'We would be honored to pray', intro: 'Our team prays for every request we receive on a regular basis.', kind: 'form' },
   { slug: 'give', title: 'Giving', eyebrow: 'Generosity', intro: 'God is generous, and so he calls us to be as well.', heroImage: '/assets/pages/giving.png', kind: 'giving' },
