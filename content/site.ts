@@ -47,13 +47,10 @@ export const beliefs = [
 
 export const leaders = [
   ['Nick Shock', 'Leadership & Teaching Elder', '/assets/people/nick-shock.jpeg'],
-  ['Tim Gillen', 'Teaching Elder', '/assets/people/tim-gillen.jpeg'],
   ['Josh Currer', 'Teaching Elder', '/assets/people/josh-currer.jpeg'],
   ['Gonzo Gonzales', 'Elder', '/assets/people/gonzo-gonzales.jpeg'],
-  ['Landon Berryhill', 'Worship Leader', '/assets/people/landon-berryhill.jpeg'],
   ['Laura Munoz', 'Head of Kids Ministry', '/assets/people/laura-munoz.jpeg'],
   ['Sandra Louviere', 'Administrator', '/assets/people/sandra-louviere.jpeg'],
-  ['Ben Grimm', 'Leadership', ''],
 ] as const;
 
 export const neighborhoodGroups = [
