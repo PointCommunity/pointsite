@@ -25,7 +25,7 @@ export default function Home() {
         </section>
         <section className="home-feature home-feature--split shell">
           <div className="feature-image"><Image src={assetPath('/assets/next-generation.jpeg')} alt="Families worshiping together at Point ATX" fill sizes="(max-width: 760px) 100vw, 50vw" /></div>
-          <div className="feature-copy"><p className="eyebrow">Kids ministry</p><h2>Next Generation.</h2><p>Kids are not the Church of tomorrow, but the Church today. Elementary-age kids and up worship with their parents in a multi-generational environment, while birth through preschool children have a safe, fun place to learn.</p><Link className="button" href="/next-generation">Learn more</Link></div>
+          <div className="feature-copy"><p className="eyebrow">Kids ministry</p><h2>Next Generation</h2><p>Kids are not the Church of tomorrow, but the Church today. Elementary-age kids and up worship with their parents in a multi-generational environment, while birth through preschool children have a safe, fun place to learn.</p><Link className="button" href="/next-generation">Learn more</Link></div>
         </section>
         <section className="gathering-section"><div className="shell"><p className="eyebrow">Come as you are</p><h2>Gathering Times</h2><p>Sunday Gatherings: 10:30 AM<br />11300 Old San Antonio Rd., Manchaca, TX 78652</p><iframe title="Map to Point Community Church" src={mapUrl} loading="lazy" referrerPolicy="no-referrer-when-downgrade" /></div></section>
       </main>
