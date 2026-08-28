@@ -17,7 +17,7 @@ export default function Home() {
         <div className="home-hero-copy shell"><h1>{church.mission}</h1></div>
       </section>
       <main>
-        <section className="home-intro shell"><p className="eyebrow">Point ATX</p><h2>A diverse group of ordinary people</h2><p>We are a family of Jesus followers, empowered by the Spirit to make disciples of Jesus in all of life for the glory of God.</p><div className="button-row"><Link className="button" href="/who-we-are">Who we are</Link><Link className="button" href="/what-we-believe">Our beliefs</Link></div></section>
+        <section className="home-intro shell"><p className="eyebrow">Point ATX</p><h2><span>A diverse group</span>{' '}<span>of ordinary people</span></h2><p>We are a family of Jesus followers, empowered by the Spirit to make disciples of Jesus in all of life for the glory of God.</p><div className="button-row"><Link className="button" href="/who-we-are">Who we are</Link><Link className="button" href="/what-we-believe">Our beliefs</Link></div></section>
         <section className="home-feature home-feature--photo">
           <Image src={assetPath('/assets/neighborhood-table.jpeg')} alt="Friends and families sharing a meal" fill sizes="100vw" />
           <div className="feature-shade" />

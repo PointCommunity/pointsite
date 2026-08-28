@@ -50,6 +50,7 @@ h1, h2, h3 { line-height: 1.12; letter-spacing: -.035em; }
 .home-hero h1 { max-width: 1080px; margin: 0 auto; font-size: clamp(2.7rem, 5.5vw, 5.25rem); font-weight: 700; letter-spacing: -.055em; text-align: center; text-wrap: balance; }
 .home-intro { max-width: 790px; padding-block: 104px 118px; text-align: center; }
 .home-intro h2 { font-size: clamp(2.2rem, 4vw, 3.6rem); }
+.home-intro h2 span { white-space: nowrap; }
 .home-intro > p:not(.eyebrow) { font-family: var(--font-serif), Georgia, serif; font-size: 1.14rem; }
 .button-row { display: flex; justify-content: center; gap: 28px; margin-top: 38px; }
 .home-feature { position: relative; }
