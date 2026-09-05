@@ -16,7 +16,7 @@ const libre = Libre_Baskerville({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://brimdor.github.io/pointsite/'),
+  metadataBase: new URL('https://pointatx.org/'),
   title: {
     default: 'Point Community Church | South Austin',
     template: '%s | Point Community Church',
