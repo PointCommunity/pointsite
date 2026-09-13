@@ -1,0 +1,16 @@
+name: Publish accepted public candidate
+run-name: Publish accepted public candidate ${{ github.event.client_payload.jobId }}
+on:
+  repository_dispatch:
+    types: [publish-candidate]
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+jobs:
+  publish:
+    if: github.repository == 'PointCommunity/pointsite' && github.ref == 'refs/heads/main'
+    uses: PointCommunity/pointsite-staging/.github/workflows/publish-production-runtime.yml@a397e2f61aac7bbc88cf3672765eb9572a957dc5
+    with:
+      job_id: ${{ github.event.client_payload.jobId }}
+      nonce: ${{ github.event.client_payload.nonce }}
