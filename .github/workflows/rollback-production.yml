@@ -10,7 +10,7 @@ permissions:
 jobs:
   rollback:
     if: github.repository == 'PointCommunity/pointsite' && github.ref == 'refs/heads/main'
-    uses: PointCommunity/pointsite-staging/.github/workflows/rollback-runtime.yml@33619a5d8413e748f90cb0b8a23b3d1e7a511bf0
+    uses: PointCommunity/pointsite-staging/.github/workflows/rollback-runtime.yml@a416a6ac0f3544545fb9d67570c15ec46f0e5e53
     with:
       job_id: ${{ github.event.client_payload.jobId }}
       nonce: ${{ github.event.client_payload.nonce }}
