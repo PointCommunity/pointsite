@@ -9,8 +9,9 @@ permissions:
   id-token: write
 jobs:
   publish:
-    if: github.repository == 'PointCommunity/pointsite' && github.ref == 'refs/heads/main'
-    uses: PointCommunity/pointsite-staging/.github/workflows/publish-production-runtime.yml@3789751c8725f023945b9348d7b3b43737976f81
+    if: github.ref == 'refs/heads/main' && ((github.repository == 'PointCommunity/pointsite' && github.event.client_payload.builderOrigin == 'https://builder.eaglepass.io') || (github.repository == 'PointCommunity/pointsite-canary' && github.event.client_payload.builderOrigin == 'https://builder-canary.eaglepass.io'))
+    uses: PointCommunity/pointsite-staging/.github/workflows/publish-production-runtime.yml@e9b411b6a9d7603321f921704c4f6d17ecb60fb7
     with:
+      builder_origin: ${{ github.event.client_payload.builderOrigin }}
       job_id: ${{ github.event.client_payload.jobId }}
       nonce: ${{ github.event.client_payload.nonce }}
