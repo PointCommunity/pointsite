@@ -1,0 +1,149 @@
+{
+  "siteId": "pointsite",
+  "draftId": "2c94dbf0-91c4-44b4-bb45-4c6d0a1a08af",
+  "revisionId": "09932832-fa29-41ef-8673-5de9d233cb2a",
+  "revisionChecksum": "6f56f18b9400cd82c68d69bc8319c310de5de2aeddc21924367aba0e28623098",
+  "schemaVersion": 10,
+  "rendererVersion": "10.0.0",
+  "publicationProtocol": 2,
+  "mediaSelection": "referenced",
+  "workflowRevision": "e9b411b6a9d7603321f921704c4f6d17ecb60fb7",
+  "fileCount": 21,
+  "candidateChecksum": "da8e5950634a3a78ef646c2212263f1e64b77cee6800ea8c40a90a70a5f0780a",
+  "assets": [
+    {
+      "assetId": "09cbb8fd-68e7-4835-b188-85252413c458",
+      "sourcePath": "/assets/builder/2c94dbf0-91c4-44b4-bb45-4c6d0a1a08af/09cbb8fd-68e7-4835-b188-85252413c458/next-generation.jpeg",
+      "checksum": "2bc3d6637ade7a802523c291952b36958789672d51ba1320abcfcb752695005a",
+      "byteSize": 204551,
+      "contentType": "image/jpeg"
+    },
+    {
+      "assetId": "0bb50e6b-b4c6-453e-9caf-e0deb4832c4d",
+      "sourcePath": "/assets/builder/2c94dbf0-91c4-44b4-bb45-4c6d0a1a08af/0bb50e6b-b4c6-453e-9caf-e0deb4832c4d/gonzo-gonzalez.webp",
+      "checksum": "29bc9af5b8f5694e81643bf573fd623d4f62dd8d66b7f4ce14c009d4dd37b342",
+      "byteSize": 2919564,
+      "contentType": "image/webp"
+    },
+    {
+      "assetId": "27e7877a-38b6-4d12-97fe-6f2d9aa51eff",
+      "sourcePath": "/assets/builder/2c94dbf0-91c4-44b4-bb45-4c6d0a1a08af/27e7877a-38b6-4d12-97fe-6f2d9aa51eff/point-logo.png",
+      "checksum": "2b945d8ce37074b9ca935d345c368587036e63d9c4036ea5b0a32634cceb2272",
+      "byteSize": 35944,
+      "contentType": "image/png"
+    },
+    {
+      "assetId": "2f07589c-53a9-44ec-9892-2db34cc8c22e",
+      "sourcePath": "/assets/builder/2c94dbf0-91c4-44b4-bb45-4c6d0a1a08af/2f07589c-53a9-44ec-9892-2db34cc8c22e/kids-ministry-1.jpeg",
+      "checksum": "eee0583c473018693de49d3c13498b11f8202c1e35bbbc5f526e0ae6be4f0a57",
+      "byteSize": 54106,
+      "contentType": "image/jpeg"
+    },
+    {
+      "assetId": "3eda9e76-a82c-4509-808b-62ab586f02ee",
+      "sourcePath": "/assets/builder/2c94dbf0-91c4-44b4-bb45-4c6d0a1a08af/3eda9e76-a82c-4509-808b-62ab586f02ee/russell-and-kristin.webp",
+      "checksum": "0dcf831fa5fa0c9c12202162b92b800fdd326668c425cfe1e8069e1c7cac65c7",
+      "byteSize": 2331744,
+      "contentType": "image/webp"
+    },
+    {
+      "assetId": "432b06f7-6114-495f-b1c9-055aa8d579fe",
+      "sourcePath": "/assets/builder/2c94dbf0-91c4-44b4-bb45-4c6d0a1a08af/432b06f7-6114-495f-b1c9-055aa8d579fe/nick-shock.webp",
+      "checksum": "7ceb6b3ddf65bfd0e294d32094ffff5fa77bd614e62337f82a97fc402474353d",
+      "byteSize": 2254782,
+      "contentType": "image/webp"
+    },
+    {
+      "assetId": "46aaf2e4-2706-4e7a-be17-53a08039617d",
+      "sourcePath": "/assets/builder/2c94dbf0-91c4-44b4-bb45-4c6d0a1a08af/46aaf2e4-2706-4e7a-be17-53a08039617d/kids-ministry-3.jpeg",
+      "checksum": "d9793dd16d19f341d1a4ec6d123f732b05892c037152cb8c7272d1c6ad0edded",
+      "byteSize": 53409,
+      "contentType": "image/jpeg"
+    },
+    {
+      "assetId": "483a443e-74c7-40eb-8558-3392927f69bc",
+      "sourcePath": "/assets/builder/2c94dbf0-91c4-44b4-bb45-4c6d0a1a08af/483a443e-74c7-40eb-8558-3392927f69bc/giving.png",
+      "checksum": "24f9317681ef716ed0a2034a98f9ee2ad26937d0d8248f553c92f08c8dce6acc",
+      "byteSize": 563,
+      "contentType": "image/png"
+    },
+    {
+      "assetId": "750a6d0d-2bb7-4852-be0f-6daa7c434748",
+      "sourcePath": "/assets/builder/2c94dbf0-91c4-44b4-bb45-4c6d0a1a08af/750a6d0d-2bb7-4852-be0f-6daa7c434748/caleb-bryant.webp",
+      "checksum": "cc2a0d874f489539b5454f0c4cad671cd25e9aa33a18de1c2684ad4d0e7072b4",
+      "byteSize": 1808474,
+      "contentType": "image/webp"
+    },
+    {
+      "assetId": "798575b3-40aa-404a-93f1-c8722c2fab5d",
+      "sourcePath": "/assets/builder/2c94dbf0-91c4-44b4-bb45-4c6d0a1a08af/798575b3-40aa-404a-93f1-c8722c2fab5d/laura-munoz.jpeg",
+      "checksum": "a805c7a6f1662f7aa537bf439961fde0e8398433a1a7de892e256934c48a0266",
+      "byteSize": 50102,
+      "contentType": "image/jpeg"
+    },
+    {
+      "assetId": "83b6bd44-e1d8-4e1f-8419-ce0c4213498e",
+      "sourcePath": "/assets/builder/2c94dbf0-91c4-44b4-bb45-4c6d0a1a08af/83b6bd44-e1d8-4e1f-8419-ce0c4213498e/sandra-louviere.webp",
+      "checksum": "107d44d9cc26e8e49471a22e1973bc3711a47d8d7f30cd466a568cd51e306d02",
+      "byteSize": 2437426,
+      "contentType": "image/webp"
+    },
+    {
+      "assetId": "95abdf1a-6c58-406a-87bb-0ef5bf4a6490",
+      "sourcePath": "/assets/builder/2c94dbf0-91c4-44b4-bb45-4c6d0a1a08af/95abdf1a-6c58-406a-87bb-0ef5bf4a6490/josh-currer.jpeg",
+      "checksum": "087e7f1cfd482b605341da78eaf6d2189fcc8b12f8200a18421d17841d45e86e",
+      "byteSize": 84433,
+      "contentType": "image/jpeg"
+    },
+    {
+      "assetId": "ab666b8d-8ffb-4f9b-8d43-67ceaa4d8c94",
+      "sourcePath": "/assets/builder/2c94dbf0-91c4-44b4-bb45-4c6d0a1a08af/ab666b8d-8ffb-4f9b-8d43-67ceaa4d8c94/neighborhood-map.png",
+      "checksum": "fa60720f00ee9f0744551f0e09743da9006a83823e58651b44095ff41446af92",
+      "byteSize": 25456,
+      "contentType": "image/png"
+    },
+    {
+      "assetId": "b10bfad8-c78d-491c-a65e-231b6a08fccf",
+      "sourcePath": "/assets/builder/2c94dbf0-91c4-44b4-bb45-4c6d0a1a08af/b10bfad8-c78d-491c-a65e-231b6a08fccf/austin-skyline.jpeg",
+      "checksum": "119a09be4032da2974b7dea74ac5c51aaed8a5ef74f5db47ebf5bff89877a781",
+      "byteSize": 119274,
+      "contentType": "image/jpeg"
+    },
+    {
+      "assetId": "b75dd8dd-dc67-40a3-b4bf-65f512daa56d",
+      "sourcePath": "/assets/builder/2c94dbf0-91c4-44b4-bb45-4c6d0a1a08af/b75dd8dd-dc67-40a3-b4bf-65f512daa56d/who-we-are.jpeg",
+      "checksum": "799b2ec51343ab784df0a356638e4ab4255de772a625f9d19a8e151ffdff0a20",
+      "byteSize": 4476,
+      "contentType": "image/jpeg"
+    },
+    {
+      "assetId": "c2866290-4dcb-46f2-882f-06e25132430d",
+      "sourcePath": "/assets/builder/2c94dbf0-91c4-44b4-bb45-4c6d0a1a08af/c2866290-4dcb-46f2-882f-06e25132430d/chris-piedra.webp",
+      "checksum": "7b5623e10fff6b8fb2f657eef5818bd1f2bd4404ab6d558f14b46c0d27258f6f",
+      "byteSize": 2178746,
+      "contentType": "image/webp"
+    },
+    {
+      "assetId": "dbe47e89-62e0-4bc2-b93d-17b96fcc86bd",
+      "sourcePath": "/assets/builder/2c94dbf0-91c4-44b4-bb45-4c6d0a1a08af/dbe47e89-62e0-4bc2-b93d-17b96fcc86bd/jase-and-claire.webp",
+      "checksum": "9bd10ff3c82c5acd11b454fa25eed780c8c542964c447d9265eb412fa5fb248c",
+      "byteSize": 2533908,
+      "contentType": "image/webp"
+    },
+    {
+      "assetId": "e948acf9-3347-4aa6-bf88-6d9388b669ca",
+      "sourcePath": "/assets/builder/2c94dbf0-91c4-44b4-bb45-4c6d0a1a08af/e948acf9-3347-4aa6-bf88-6d9388b669ca/neighborhood-table.jpeg",
+      "checksum": "d77fca4054bbcf4c42cdedb290e9b6efcfcb633aa73b41a68faa9e361d81fbb0",
+      "byteSize": 163982,
+      "contentType": "image/jpeg"
+    },
+    {
+      "assetId": "f02c3e0b-d7a8-45b4-99bd-02e7efae57f0",
+      "sourcePath": "/assets/builder/2c94dbf0-91c4-44b4-bb45-4c6d0a1a08af/f02c3e0b-d7a8-45b4-99bd-02e7efae57f0/kids-ministry-2.jpeg",
+      "checksum": "7cdf570d6a6db1922deba363e81266cc30446678b48689f9f12db45cd758bad5",
+      "byteSize": 70729,
+      "contentType": "image/jpeg"
+    }
+  ],
+  "source": "PointCommunity/pointsite-builder"
+}
